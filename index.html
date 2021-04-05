@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mi página-CST</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" tybe="text/css" href="estilo.css">
+    <link rel="stylesheet" tybe="text/css" href="normalize.css"> 
+    <link rel="shortcut icon" href="favicon.png">
+    <meta name="viewport"content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/62ea397d3a.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+	<header>
+     <nav>
+         <ul class="nav">
+ 
+             <li class="nav__li "><i class="fas fa-home"></i><a href="index.html" target="">Inicio</li>
+             <li class="nav__li"><i class="fas fa-info-circle"></i><a href="index.html">Finalidad</li>
+             <li class="nav__li"><i class="fas fa-question-circle"></i><a href="index.html">Ayuda</li>   
+
+         </ul>
+         <ul class="nav__responsive-ul">
+             <div class="nav__responsive-button-container">
+             <div class="nav__responsive-button fas fa-bars"></div>   
+            </div>
+            
+             <div class="nav__li-container">
+
+              <li class="nav__responsive-li"><i class="fas fa-home"></i><a href="index.html" target="">Inicio</li>
+              <li class="nav__responsive-li"><i class="fas fa-info-circle"></i><a href="index.html">Finalidad</li>
+              <li class="nav__responsive-li"><i class="fas fa-question-circle"></i><a href="index.html">Ayuda</li>
+                <br><br>
+                <b>ELABORADO POR: CRSITIAN CHAMORRO</b>
+
+             </div>   
+         </ul>
+     </nav>   
+    </header>
+    <article>
+        <section>
+            <h2 class="section__h2-titulo">
+                <b>¿Qué es la programación web y para que sirve?</b>
+            </h2>
+                        <p>
+                              <img src="data:image/png;base64,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" alt="" title="webDevelopmentCST">
+                        La programación de los sitios web es una de las disciplinas dentro del mundo de Internet que más se ha desarrollado y no deja de sorprender día a día con las posibilidades que abre y genera, ya que no sólo consigue satisfacer necesidades que se generan, sino que sin la generación de necesidades ofrecen servicios a los usuarios que éstos no habían imaginado.  
+                        
+                        <br>
+                        <br>
+                        <i class="section__p-color">Definición de desarrollo web</i>
+                        <br>
+                        <br>
+                        
+                        El desarrollo web es un término que define la creación de sitios web para Internet o una intranet. Para lograr esto, la tecnología de software se usa en el lado del servidor y del lado del cliente, lo que implica una combinación de procesos de base de datos utilizando un navegador para realizar ciertas tareas o mostrar información.
+                        
+                        <br>
+                        <br>
+                        <i class="section__p-color2">Para que nos sirve la programación</i>
+                        <br>
+                        <br>
+                        
+                        En principio, el gran desarrollo de Internet se fundamentó en la posibilidad de enlazar a través de hipervículos diferentes páginas web lo que generó la enorme interconexión que es hoy Internet. Esta base que inició esta red, fué desarrollada y generó el lenguaje ícono de las páginas web que es HTML.
+                        <br>
+                        <br>
+                        Pero, como decíamos, la creatividad humana no tiene límites y lejos de contentarse con el desarrollo del lenguaje HTML, enriqueciéndolo en su sintaxis, aparecieron otro lenguajes, que a su vez desataron una reacción en cadena con respecto a las operaciones que se podían lograr en un sitio web.
+                        <br>
+                        <br>
+                        De esta forma, apareció el lenguaje Java, que mejoró sustancialmente la interacción con el usuario, de manera que éste anexó una sensación de amigabilidad y usabilidad en Internet, contribuyendo a que su utilización sea mayor.
+                        <br>
+                        <br>
+                        De esta manera de Java nació Java Script, que ha su vez incentivó a la creación de otros lenguajes que apuntaron a el mimso objetivo como PHP, y así constantemente se están buscando mejoras y nuevas alternativas, todas que apuntan a la interacción del usuario con el sitio.
+                        <br>
+                        <br>
+                        Por todo esto que estamos indicando antes, la programación del sitio web tiene la misma importancia que el diseño web, no se trata de poner uno por encima de otro, los dos se complementan y hacen que la eficiencia del sitio web sea importante.
+                        <br>
+                        <br>
+                        Está demostrado que los sitios más visitados son los que brindan un servicio más «personalizado» al usuario y esto se logra pura y exclusivamente a través de la programación web, que a través de conocer los gustos y tendencias del usuario, utiliza estos datos para proporcionarle al mismo información que más le interesa.
+                        <br><br>
+                      
+
+
+                        </p>
+
+        </section>
+    </article>
+    <aside>
+        <div>
+            <p>
+                Eso es todo por el momento :)
+            </p>
+        </div>
+    </aside>
+    <footer>
+        <h4>
+            derechos reservados "Cristian Chamorro"
+        </h4>
+    </footer>
+           
+	
+</body>
+</html>
